@@ -11,7 +11,7 @@ class Meteor(Sprite):
         super().__init__()
         self.screen = screen
         self.screen_rect = screen.get_rect()
-        self.image = pygame.image.load('images/alian.jpg')
+        self.image = pygame.image.load('images/meteor.png')
         self.rect = self.image.get_rect()
 
         # Создание пули в позиции (0,0) и назначение правильной позиции.
